@@ -15,7 +15,7 @@ export const serve = async (port: number, filename: string, dir: string, useProx
       logLevel: 'silent'
     }));
   } else {
-    const packagePath = require.resolve('local-client/build/index.html');
+    const packagePath = require.resolve('@al777/local-client/build/index.html');
     app.use(express.static(path.dirname(packagePath)));
   }
 

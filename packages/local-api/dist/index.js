@@ -28,7 +28,7 @@ const serve = (port, filename, dir, useProxy) => __awaiter(void 0, void 0, void 
         }));
     }
     else {
-        const packagePath = require.resolve('local-client/build/index.html');
+        const packagePath = require.resolve('@al777/local-client/build/index.html');
         app.use(express_1.default.static(path_1.default.dirname(packagePath)));
     }
     return new Promise((resolve, reject) => {
