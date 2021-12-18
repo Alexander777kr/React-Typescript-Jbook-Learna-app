@@ -1,0 +1,1 @@
+[{"content":"","type":"text","id":"fah5c"},{"content":"import getJokes from  'jokes-api';\r\nlet jokeStart =  async()  =>  {\r\nlet joke =  await getJokes('Programming');\r\nshow(joke);\r\n}\r\njokeStart();","type":"code","id":"2jbe1"}]
